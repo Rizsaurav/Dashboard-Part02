@@ -42,7 +42,8 @@ Here's a walkthrough of implemented user stories:
 
 <img https://imgur.com/gallery/brewery-dashboard-sEhxiye>
 
-<img src =https://imgur.com/gallery/brewery-dashboard-sEhxiye>
+<img src='[http://i.imgur.com/link/to/your/gif/file.gif](https://imgur.com/gallery/brewery-dashboard-sEhxiye)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
