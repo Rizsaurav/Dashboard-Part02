@@ -40,14 +40,14 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='h[ttp://i.imgur.com/link/to/your/gif/file.gif](https://imgur.com/gallery/brewery-dashboard-sEhxiye)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img https://imgur.com/gallery/brewery-dashboard-sEhxiye>
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+https://imgur.com/gallery/brewery-dashboard-sEhxiye
+
 
 ## Notes
 
