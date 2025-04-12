@@ -42,6 +42,8 @@ Here's a walkthrough of implemented user stories:
 
 <img https://imgur.com/gallery/brewery-dashboard-sEhxiye>
 
+<img src =https://imgur.com/gallery/brewery-dashboard-sEhxiye>
+
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
 <!-- Recommended tools:
