@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* === Root Theme Variables === */
+:root {
+  --primary: #f97316;
+  --primary-light: #fb923c;
+  --primary-dark: #ea580c;
+  --primary-bg: #fffaf0;
+  --neutral-900: #292524;
+  --neutral-800: #44403c;
+  --neutral-700: #57534e;
+  --neutral-100: #f5f5f4;
+  --neutral-50: #fafaf9;
+}
+
+/* === Global Reset & Base Typography === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--neutral-50);
+  color: var(--neutral-900);
+  min-height: 100vh;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--primary-dark);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+/* === Utility Classes === */
+.text-primary        { color: var(--primary); }
+.bg-primary          { background-color: var(--primary); }
+.bg-primary-light    { background-color: var(--primary-light); }
+.text-neutral-900    { color: var(--neutral-900); }
+
+.flex                { display: flex; }
+.flex-col            { flex-direction: column; }
+.items-center        { align-items: center; }
+.justify-between     { justify-content: space-between; }
+
+.gap-2               { gap: 0.5rem; }
+.gap-4               { gap: 1rem; }
+.px-4                { padding-left: 1rem; padding-right: 1rem; }
+.py-2                { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+.p-4                 { padding: 1rem; }
+
+.font-medium         { font-weight: 500; }
+.font-semibold       { font-weight: 600; }
+.font-bold           { font-weight: 700; }
+
+.rounded-full        { border-radius: 9999px; }
+.rounded-lg          { border-radius: 0.5rem; }
+.rounded-xl          { border-radius: 0.75rem; }
+
+.shadow-sm           { box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); }
+.shadow              { box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); }
+.shadow-md           { box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
+
+.transition {
+  transition: all 0.2s ease-in-out;
+}
+
+/* === Animations === */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-in;
+}
+
+/* === Responsive Helpers === */
+@media (max-width: 768px) {
+  .flex-md-col {
+    flex-direction: column;
+  }
+  .text-center-md {
+    text-align: center;
+  }
+  .gap-4-md {
+    gap: 1rem;
+  }
+}
